@@ -71,6 +71,7 @@ This file contains a number of front-end interview questions that can be used wh
   * **The language of an entire page can be set by adding the `<html lang="">` to the document's head. Within and individual page you can set the language for specific content by adding a `lang=""` attribute to any element.**
 * What kind of things must you be wary of when design or developing for multilingual sites?
 * What are `data-` attributes good for?
+  * **You can store relevent information about a given element in the data attribute and access that with JavaScript using `element.dataset.value`.
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Describe the difference between a `cookie`, `sessionStorage` and `localStorage`.
 * Describe the difference between `<script>`, `<script async>` and `<script defer>`.
