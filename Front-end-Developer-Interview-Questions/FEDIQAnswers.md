@@ -134,7 +134,7 @@ This file contains a number of front-end interview questions that can be used wh
   * How would you go about checking for any of these states?
 * What is a closure, and how/why would you use one?
 * What's a typical use case for anonymous functions?
-  * **Anonymous functions are typically used for callback function such as:
+  * **Anonymous functions are typically used for callback function such as:**
   ```javascript
   function foo(str, callback) {
     callback();
