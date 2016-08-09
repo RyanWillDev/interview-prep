@@ -35,6 +35,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Which version control systems are you familiar with?
   * **I have a working knowledge of Git and Github. On every project I work on I try to emulate the Github workflow as best I can, while working by myself. This includes creating branches for new features, submitting pull requests, and entering all the changes I want to make as issues.**
 * Can you describe your workflow when you create a web page?
+  * **It would depend on the scale of the project. If I am just making a one of landing page, I would use HTML, CSS or Sass, and vanilla JavaScript. If the project called for a SPA, I would bring in complexities as they became necessary.**
 * If you have 5 different stylesheets, how would you best integrate them into the site?
 * Can you describe the difference between progressive enhancement and graceful degradation?
 * How would you optimize a website's assets/resources?
