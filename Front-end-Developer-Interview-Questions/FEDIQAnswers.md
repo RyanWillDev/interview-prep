@@ -267,6 +267,10 @@ Object.keys(obj).map(function(curr) {
 *Question: What is the value of `foo`?*
 ```javascript
 var foo = 10 + '20';
+
+// My answer
+'1020' // When you add a string to a number the number is coerced to a string 
+      // and added to the existing string
 ```
 
 *Question: How would you make this work?*
