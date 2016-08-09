@@ -56,6 +56,7 @@ This file contains a number of front-end interview questions that can be used wh
   * **The FOUC results from the content of the page loading before the CSS. So, the page is initially rendered with no styling, then re-rendered when the CSS file is loaded. You can avoid this by putting your `<link>`s to CSS files in the head of your document.**
 * Explain what ARIA and screenreaders are, and how to make a website accessible.
 * Explain some of the pros and cons for CSS animations versus JavaScript animations.
+  * **CSS animations are simpler and do not require JavaScript, so they will work in its absence. They are also more optimized by the browser leveraging the GPU to handle them. JavaScript gives you more control of your animations and can also leverage the GPU, although it takes a little more effort.**
 * What does CORS stand for and what issue does it address?
   * **Cross Origin Resource Sharing - is a method for allowing resources to be requested from domains other than the one the site is on. This functionality must be added to the server from which the data is being requested from.** 
 
