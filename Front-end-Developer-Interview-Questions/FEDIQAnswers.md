@@ -155,6 +155,12 @@ This file contains a number of front-end interview questions that can be used wh
 ```javascript
 duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 ```
+  * **Answer**
+  ```javascript
+  function duplicate(arr) {
+    return arr.concat(arr);
+  }
+  ```
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
 * Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, **"buzz"** at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
