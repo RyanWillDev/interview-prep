@@ -56,6 +56,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain what ARIA and screenreaders are, and how to make a website accessible.
 * Explain some of the pros and cons for CSS animations versus JavaScript animations.
 * What does CORS stand for and what issue does it address?
+  * **Cross Origin Resource Sharing - is a method for allowing resources to be requested from domains other than the one the site is on. This functionality must be added to the server from which the data is being requested from.** 
 
 #### HTML Questions:
 
