@@ -153,6 +153,7 @@ This file contains a number of front-end interview questions that can be used wh
 * What's the difference between `.call` and `.apply`?
   * **`.call` and `.apply` are similar in that they both allow a developer to change the `this` context of a function and pass in arguments to call the function with. They differ in how you pass the arguments. `.call` expects a `this` context as its first argument followed by a comma separated list of arguments ex: `foo.call(objectForNewThisContext, 1, 2, 3)`. `.apply` expects the first argument to be a this context just like `.call`, but it expects an Array of arguments as its second argument ex: `foo.apply(objectForNewThisContext, [1, 2, 3])`. With both function methods you can pass `null` as the first argument to keep the default `this` context ex: `foo.call(null, 1, 2, 3)`.**
 * Explain `Function.prototype.bind`.
+  * **`.bind` is similar to `.apply` and `.call` from the previous answer. The only difference being it returns a function that has its `this` context and arguments permanently bound, while `.apply` and `.call` immediately call the function with the context and arguments passed to them. So, you would store the result of calling bind on a function in a variable ex: `var boundFoo = foo.bind(null, 1, 2, 3);`. Now, anytime you call `boundFoo` it will use the `this` context and arguments bound to it.**
 * When would you use `document.write()`?
 * What's the difference between feature detection, feature inference, and using the UA string?
 * Explain Ajax in as much detail as possible.
