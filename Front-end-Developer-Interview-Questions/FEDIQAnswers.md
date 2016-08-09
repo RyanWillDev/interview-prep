@@ -126,6 +126,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain how `this` works in JavaScript
   * **In JavaScript `this` refers to the object that invoked the function, also known as the context of the function. I can be used to reference the object from within the function. It changes implicitly by where/how a function was called and explicitly by `Function.prototype.call()` and `Function.prototype.apply()`. Arrow functions in ES6/ES2015 bind `this` to the enclosing scope context upon declaration and its context can not be changed with either `call` or `apply`.**
 * Explain how prototypal inheritance works
+  * **I gave an example of prototypal inheritance [here](https://github.com/RyanWillDev/interview-prep/blob/master/10-int-ques-js/q-1.md#prototypal-inheritance), but will sum it up here. Instead of having a hierarchical inheritance structure JavaScript's prototypal inheritance related objects are more like siblings linked by the prototype chain. If you try to access a method or property on the object at the end of the chain that doesn't exist it will stop at every link on the chain to see if the property or method exists there. Kyle Simpson calls this _Behavior Delegation_.**
 * What do you think of AMD vs CommonJS?
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
   * What needs to be changed to properly make it an IIFE?
