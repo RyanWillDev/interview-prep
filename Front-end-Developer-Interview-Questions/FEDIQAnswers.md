@@ -32,6 +32,7 @@ This file contains a number of front-end interview questions that can be used wh
   * **I recently came to an MVP for a toy app I am building. In building that app, I encountered many challenges. I was able to overcome them by first, stopping what I was doing and writing down the problem. I then made a list of all the possible causes to that problem. Once the list was complete, I tried each solution in turn until I either solved the problem or ran out of ideas. If I ran out of ideas, I went to the various Slack communities I am a part of to ask for advice.**
 * What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
 * Talk about your preferred development environment.
+  * **Sublime Text 3 with ESLint and auto-semicolon plugin for JavaScript.**
 * Which version control systems are you familiar with?
   * **I have a working knowledge of Git and Github. On every project I work on I try to emulate the Github workflow as best I can, while working by myself. This includes creating branches for new features, submitting pull requests, and entering all the changes I want to make as issues.**
 * Can you describe your workflow when you create a web page?
