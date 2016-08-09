@@ -273,6 +273,16 @@ var foo = 10 + '20';
 ```javascript
 add(2, 5); // 7
 add(2)(5); // 7
+
+// My answer
+function add(x, y) {
+  if (!(x && y)) {
+    return function(y) {
+      return x + y;
+    };
+  }
+  return x + y;
+}
 ```
 
 *Question: What value is returned from the following statement?*
