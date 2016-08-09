@@ -146,9 +146,9 @@ This file contains a number of front-end interview questions that can be used wh
     console.log(string);
   });
   ```
-
 * How do you organize your code? (module pattern, classical inheritance?)
 * What's the difference between host objects and native objects?
+  * **Host Objects are specific to the environment that JavaScript is running in. The window object in the browser is an example of a host object. While objects like `Object`, `Date`, `Array` are native to the JavaScript language and are available no matter the environment.**
 * Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
 * What's the difference between `.call` and `.apply`?
 * Explain `Function.prototype.bind`.
