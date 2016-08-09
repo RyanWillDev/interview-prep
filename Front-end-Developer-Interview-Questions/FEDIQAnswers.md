@@ -158,6 +158,7 @@ This file contains a number of front-end interview questions that can be used wh
   * **When you want to replace the entirety of the documents content.**
 * What's the difference between feature detection, feature inference, and using the UA string?
 * Explain Ajax in as much detail as possible.
+  * **AJAX uses an XMLHttpRequest to asynchronously request additional data from a server. This means it sends the request and continues executing the code, until the requested data is received and only then act on it. This technique is typically used to load additional data to the page without having to redirect the user.**
 * What are the advantages and disadvantages of using Ajax?
 * Explain how JSONP works (and how it's not really Ajax).
 * Have you ever used JavaScript templating?
