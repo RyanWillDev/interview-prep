@@ -213,6 +213,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * What are the pros and cons of using Promises instead of callbacks?
 * What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?
 * What tools and techniques do you use debugging JavaScript code?
+  * **I use a `console.log()` statements to quickly check the value of things. I also use `debugger;` commands to freeze the code in the browsers debugger so I can extensively examine the state of the program at that point.**
 * What language constructions do you use for iterating over object properties and array items?
 * Explain the difference between mutable and immutable objects.
   * What is an example of an immutable object in JavaScript?
