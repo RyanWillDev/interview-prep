@@ -155,6 +155,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain `Function.prototype.bind`.
   * **`.bind` is similar to `.apply` and `.call` from the previous answer. The only difference being it returns a function that has its `this` context and arguments permanently bound, while `.apply` and `.call` immediately call the function with the context and arguments passed to them. So, you would store the result of calling bind on a function in a variable ex: `var boundFoo = foo.bind(null, 1, 2, 3);`. Now, anytime you call `boundFoo` it will use the `this` context and arguments bound to it.**
 * When would you use `document.write()`?
+  * **When you want to replace the entirety of the documents content.**
 * What's the difference between feature detection, feature inference, and using the UA string?
 * Explain Ajax in as much detail as possible.
 * What are the advantages and disadvantages of using Ajax?
