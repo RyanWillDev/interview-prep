@@ -37,6 +37,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Can you describe your workflow when you create a web page?
   * **It would depend on the scale of the project. If I am just making a one of landing page, I would use HTML, CSS or Sass, and vanilla JavaScript. If the project called for a SPA, I would bring in complexities as they became necessary.**
 * If you have 5 different stylesheets, how would you best integrate them into the site?
+  * **If those stylesheets were each for a single web page I would load them in a link tag on each corresponding page. If they all contained styles used on different pages, like in the case of Sass files, I would import them all into a `main.scss`, compile and minify that file, and include it on all web pages.**
 * Can you describe the difference between progressive enhancement and graceful degradation?
 * How would you optimize a website's assets/resources?
 * How many resources will a browser download from a given domain at a time?
