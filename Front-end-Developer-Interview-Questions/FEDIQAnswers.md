@@ -151,6 +151,7 @@ This file contains a number of front-end interview questions that can be used wh
   * **Host Objects are specific to the environment that JavaScript is running in. The window object in the browser is an example of a host object. While objects like `Object`, `Date`, `Array` are native to the JavaScript language and are available no matter the environment.**
 * Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
 * What's the difference between `.call` and `.apply`?
+  * ** `.call` and `.apply` are similar in that they both allow a developer to change the `this` context of a function and pass in arguments to call the function with. They differ in how you pass the arguments. `.call` expects a `this` context as its first argument followed by a comma separated list of arguments ex: `foo.call(objectForNewThisContext, 1, 2, 3)`. `.apply` expects the first argument to be a this context just like `.call`, but it expects an Array of arguments as its second argument ex: `foo.apply(objectForNewThisContext, [1, 2, 3])`. With both function methods you can pass `null` as the first argument to keep the default `this` context ex: `foo.call(null, 1, 2, 3)`.
 * Explain `Function.prototype.bind`.
 * When would you use `document.write()`?
 * What's the difference between feature detection, feature inference, and using the UA string?
