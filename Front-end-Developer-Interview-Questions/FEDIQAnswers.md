@@ -33,6 +33,7 @@ This file contains a number of front-end interview questions that can be used wh
 * What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
 * Talk about your preferred development environment.
 * Which version control systems are you familiar with?
+  * **I have a working knowledge of Git and Github. On every project I work on I try to emulate the Github workflow as best I can, while working by myself. This includes creating branches for new features, submitting pull requests, and entering all the changes I want to make as issues.**
 * Can you describe your workflow when you create a web page?
 * If you have 5 different stylesheets, how would you best integrate them into the site?
 * Can you describe the difference between progressive enhancement and graceful degradation?
