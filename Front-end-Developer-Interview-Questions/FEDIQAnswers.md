@@ -64,7 +64,9 @@ This file contains a number of front-end interview questions that can be used wh
 * What's the difference between full standards mode, almost standards mode and quirks mode?
   * **Quirks mode is for websites built before the adoption of web standards. Standards mode is for modern standards compliant browsers and is activated by the doctype declaration from the previous answer. Almost Standards mode is for websites that have a few holdout practices from the era before web standards.**
 * What's the difference between HTML and XHTML?
+  * **XHTML has a stricter syntax than HTML.**
 * Are there any problems with serving pages as `application/xhtml+xml`?
+  * **If you serve a page as `application/xhtml+xml` it must meet the stricter syntax of XHTML. So, there is not necessarily a downside to serving the content that way you just have to be more conscious of how you structure the files served that way.**
 * How do you serve a page with content in multiple languages?
 * What kind of things must you be wary of when design or developing for multilingual sites?
 * What are `data-` attributes good for?
