@@ -176,6 +176,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Why is extending built-in JavaScript objects not a good idea?
 * Difference between document load event and document DOMContentLoaded event?
 * What is the difference between `==` and `===`?
+  * **Loose equals or `==` will try to coerce, convert, what you are equality checking into the same type ex: `4 == '4' // true`. This is useful when you don't care what the type is just that the values are equal. Strict equals or `===` will not coerce your types, comparing both the type and the value ex: `4 === '4' // false`. This is useful when you need to make sure that not only the values are equal, but the types as well.**
 * Explain the same-origin policy with regards to JavaScript.
 * Make this work:
 ```javascript
