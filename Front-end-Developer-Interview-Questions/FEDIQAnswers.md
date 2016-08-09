@@ -43,7 +43,9 @@ This file contains a number of front-end interview questions that can be used wh
 * How would you optimize a website's assets/resources?
   * **Different website assets can be optimized in different ways. For instance, you could host images on a CDN to have your images served from different servers depending on the user's relative position and the server's availability. When optimizing assets such as CSS or JavaScript, it is good practice to concatenate and minify the files to reduce the number of requests to the server and the overall size of the files.**
 * How many resources will a browser download from a given domain at a time?
+  * **According to [this](https://www.maxcdn.com/one/visual-glossary/domain-sharding-2/) article, the average limit on modern browsers is 6 concurrent downloads per domain.**
   * What are the exceptions?
+    * **Since the limit is per domain, serving content from different subdomains would reset the limit. However, as the above article points out, this can produce a performance loss due to the additional DNS lookups the browser would have to perform.**
 * Name 3 ways to decrease page load (perceived or actual load time).
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
 * Describe how you would create a simple slideshow page.
