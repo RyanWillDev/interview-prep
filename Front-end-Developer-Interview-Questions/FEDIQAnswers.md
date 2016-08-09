@@ -160,17 +160,18 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, **"buzz"** at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
   * 
   ```javascript
-    for (i = 0; i < 100; i++) {
-  if (i % 3 === 0 && i % 5 === 0) {
-    console.log('FizzBuzz');
-  } else if (i % 3 === 0) {
-    console.log('Fizz');
-  } else if (i % 5 === 0) {
-    console.log('Buzz')
-  } else {
-    console.log(i);
+  for (i = 0; i < 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log('FizzBuzz');
+    } else if (i % 3 === 0) {
+      console.log('Fizz');
+    } else if (i % 5 === 0) {
+      console.log('Buzz')
+    } else {
+      console.log(i);
+    }
   }
-}```
+```
 * Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
 * Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
 * Explain what a single page app is and how to make one SEO-friendly.
