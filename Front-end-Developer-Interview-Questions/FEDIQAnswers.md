@@ -171,6 +171,7 @@ This file contains a number of front-end interview questions that can be used wh
   * If so, what libraries have you used?
   * **I have used Jade and React (if that counts as a templating language?).**
 * Explain "hoisting".
+  * **JavaScript hoists function declarations, `function foo() {return 'I am foo';` and variable declarations, but not assignments to the top of the scope. This means that you can call functions before they are actually defined. If you reference a variable before it is declared the variable will be undefined, versus referencing it before it is defined, which results in `variable is not defined` error.**
 * Describe event bubbling.
 * What's the difference between an "attribute" and a "property"?
 * Why is extending built-in JavaScript objects not a good idea?
