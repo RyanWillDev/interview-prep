@@ -77,6 +77,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Describe the difference between a `cookie`, `sessionStorage` and `localStorage`.
 * Describe the difference between `<script>`, `<script async>` and `<script defer>`.
 * Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
+  * **Placing the CSS links in the document's head allows the style for the site to load before the content in the body. This means that the content should be styled as soon as it is rendered to the page, preventing the Flash of unstyled content. Since JavaScript is not essential to displaying the content, placing the script tags at the bottom of the body means it will be loaded only after the content is finished. This lowers the perceived load time for the user.**
 * What is progressive rendering?
 * Have you used different HTML templating languages before?
 
