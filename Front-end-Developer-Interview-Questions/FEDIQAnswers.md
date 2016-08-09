@@ -160,6 +160,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain Ajax in as much detail as possible.
   * **AJAX uses an XMLHttpRequest to asynchronously request additional data from a server. This means it sends the request and continues executing the code, until the requested data is received and only then act on it. This technique is typically used to load additional data to the page without having to redirect the user.**
 * What are the advantages and disadvantages of using Ajax?
+  * **One advantage of using AJAX is you can wait and load data only when you need it. When the document initially renders it only loads the absolute essentials. If during the user's interactions with the page they need more data, you can load then. The biggest disadvantage is that it relies on JavaScript. If a user has disabled JavaScript in their browser you would not be able to load the data via AJAX.**
 * Explain how JSONP works (and how it's not really Ajax).
 * Have you ever used JavaScript templating?
   * If so, what libraries have you used?
