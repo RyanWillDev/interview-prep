@@ -215,7 +215,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * What tools and techniques do you use debugging JavaScript code?
   * **I use a `console.log()` statements to quickly check the value of things. I also use `debugger;` commands to freeze the code in the browsers debugger so I can extensively examine the state of the program at that point.**
 * What language constructions do you use for iterating over object properties and array items?
-  * **When iterating over Array items I prefer to use methods like `.map`, `.filter`, `.forEach`, and `.reduce`. I don't iterate Objects often, but if I did I would most likely use a `for in` loop. You could also do something like this:**
+  * **When iterating over Array items I prefer to use methods like `.map`, `.filter`, `.forEach`, and `.reduce`. I don't iterate Objects often, but if I did I might use a `for in` loop. I might also do something like this:**
   ```javascript
   var obj = {
   a: 1,
