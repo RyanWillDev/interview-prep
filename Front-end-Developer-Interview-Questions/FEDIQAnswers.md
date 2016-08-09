@@ -162,6 +162,7 @@ This file contains a number of front-end interview questions that can be used wh
 * What are the advantages and disadvantages of using Ajax?
   * **One advantage of using AJAX is you can wait and load data only when you need it. When the document initially renders it only loads the absolute essentials. If during the user's interactions with the page they need more data, you can load then. The biggest disadvantage is that it relies on JavaScript. If a user has disabled JavaScript in their browser you would not be able to load the data via AJAX.**
 * Explain how JSONP works (and how it's not really Ajax).
+  * **Because of the same origin policy you cannot request data from a different domain using AJAX. JSONP works around this by injecting a script tag into the document that "requests" a script/file from a different domain. This is not actually AJAX because you are not using an XMLHttpRequest to request the data.**
 * Have you ever used JavaScript templating?
   * If so, what libraries have you used?
 * Explain "hoisting".
