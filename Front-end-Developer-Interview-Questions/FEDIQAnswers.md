@@ -62,6 +62,7 @@ This file contains a number of front-end interview questions that can be used wh
 * What does a `doctype` do?
   * **It tells the web browser which version of HTML you are using. In HTML5 it is `<!DOCTYPE html>`**
 * What's the difference between full standards mode, almost standards mode and quirks mode?
+  * **Quirks mode is for websites built before the adoption of web standards. Standards mode is for modern standards compliant browsers and is activated by the doctype declaration from the previous answer. Almost Standards mode is for websites that have a few holdout practices from the era before web standards.**
 * What's the difference between HTML and XHTML?
 * Are there any problems with serving pages as `application/xhtml+xml`?
 * How do you serve a page with content in multiple languages?
