@@ -155,8 +155,7 @@ This file contains a number of front-end interview questions that can be used wh
 ```javascript
 duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 ```
-  * **Answer**
-  ```javascript
+  * **Answer:**```javascript
   function duplicate(arr) {
     return arr.concat(arr);
   }
