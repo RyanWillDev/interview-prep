@@ -81,6 +81,7 @@ This file contains a number of front-end interview questions that can be used wh
 * What is progressive rendering?
   * **Customizing the way in which your HTML is rendered to the page. This can include lazy loading images as they come into view instead of loading all images at page load.**
 * Have you used different HTML templating languages before?
+  * **I have used Jade and Liquid templating language with Jekyll.**
 
 #### CSS Questions:
 
