@@ -47,6 +47,7 @@ This file contains a number of front-end interview questions that can be used wh
   * What are the exceptions?
     * **Since the limit is per domain, serving content from different subdomains would reset the limit. However, as the above article points out, this can produce a performance loss due to the additional DNS lookups the browser would have to perform.**
 * Name 3 ways to decrease page load (perceived or actual load time).
+  * ** You should optimize your assets as discussed above. Placing links to CSS files in the head of your document and links to JavaScript files at the end of the body, will make the page appear to load faster, as the styles will appear almost instantaneously, but the 'heavy' JavaScript files will load only after the body has finished. Priotritizing the content seen before the user scrolls down the page will decrease perceived load time.**
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
 * Describe how you would create a simple slideshow page.
 * If you could master one technology this year, what would it be?
