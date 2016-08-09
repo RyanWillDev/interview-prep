@@ -122,6 +122,7 @@ This file contains a number of front-end interview questions that can be used wh
 #### JS Questions:
 
 * Explain event delegation
+  * **Event delegation is the process of adding and event listener to a parent element and having all events triggered by its children delegate to the parent. An example would be adding an event listener for click events to an `<ul>`. When one of the `<ul>`'s child `<li>` elements is clicked it will dispatch an event that will be delegated to the parent. The event listener on the parent can then check the target of the event and perform whatever action is desired.**
 * Explain how `this` works in JavaScript
 * Explain how prototypal inheritance works
 * What do you think of AMD vs CommonJS?
