@@ -165,6 +165,7 @@ This file contains a number of front-end interview questions that can be used wh
   * **Because of the same origin policy you cannot request data from a different domain using AJAX. JSONP works around this by injecting a script tag into the document that "requests" a script/file from a different domain. This is not actually AJAX because you are not using an XMLHttpRequest to request the data.**
 * Have you ever used JavaScript templating?
   * If so, what libraries have you used?
+  * **I have used Jade and React (if that counts as a templating language?).**
 * Explain "hoisting".
 * Describe event bubbling.
 * What's the difference between an "attribute" and a "property"?
