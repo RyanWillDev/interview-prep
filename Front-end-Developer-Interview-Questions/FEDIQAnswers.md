@@ -124,6 +124,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain event delegation
   * **Event delegation is the process of adding and event listener to a parent element and having all events triggered by its children delegate to the parent. An example would be adding an event listener for click events to an `<ul>`. When one of the `<ul>`'s child `<li>` elements is clicked it will dispatch an event that will be delegated to the parent. The event listener on the parent can then check the target of the event and perform whatever action is desired.**
 * Explain how `this` works in JavaScript
+  * **In JavaScript `this` refers to the object that invoked the function, also known as the context of the function. I can be used to reference the object from within the function. It changes implicitly by where/how a function was called and explicitly by `Function.prototype.call()` and `Function.prototype.apply()`. Arrow functions in ES6/ES2015 bind `this` to the enclosing scope context upon declaration and its context can not be changed with either `call` or `apply`.**
 * Explain how prototypal inheritance works
 * What do you think of AMD vs CommonJS?
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
